@@ -1,0 +1,42 @@
+.custom-icon {
+  font-size: 2rem; /* Raddoppia la dimensione dell'icona */
+}
+.blocchi-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blocco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.elimina-blocco {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.image-selector img {
+  width: 250px; /* Larghezza desiderata */
+  height: auto; /* L'altezza si adatta proporzionalmente */
+  margin-right: 10px; 
+}
+.image-block {
+  max-width: 250px; /* Imposta la larghezza massima desiderata */
+  max-height: 250px; /* Imposta l'altezza massima desiderata */
+}
+
+.elimina-blocco {
+  position: relative;
+  display: inline-block;
+}
+
+.arrow-button {
+  margin-right: 5px;
+}
+
+.x {
+  cursor: pointer;
+}
